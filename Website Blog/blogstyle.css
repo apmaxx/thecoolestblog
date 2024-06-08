@@ -1,6 +1,8 @@
-.h1{
+div.header{
+
   text-align: center;
-  margin-right: 50%;
+ 
+
 }
 
 
@@ -9,26 +11,24 @@ body {
   }
 
   .borderline{
-    border-right: 5px solid aqua;
-    padding: -200px;
-    height: 500px; 
-    margin-right: 80%;
     
     
   }
 
   .izumigif{
-    display: block;
-    margin-left: 3%;
+    position: relative;
+    left: 3%;
     
   }
 
   .kirikogif{
-    display: block;
-  margin-left: auto;
-  margin-right: 30%;
-  margin-bottom: 50%;
-  width: 40%;
+    border: 5px solid #75ffed;
+    box-shadow: 10px 10px 5px ;
+    border-radius: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+     width: 40%;
   }
 
   
